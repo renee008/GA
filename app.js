@@ -40,15 +40,15 @@ const upload = multer ({storage: storage});
 
 // Create a connection to the database
 const connection = mysql.createConnection({
-    //host: 'localhost',
-    //user: 'root',
-    //password: 'Republic_C207',
-    //database: 'football_checklist'
+    host: 'localhost',
+    user: 'root',
+    password: 'Republic_C207',
+    database: 'football_checklist'
 
-    host: 'mysql-renee.alwaysdata.net',
-    user: 'renee',
-    password: 't08010688D@1',
-    database: 'renee_mini_project',
+    // host: 'mysql-renee.alwaysdata.net',
+    // user: 'renee',
+    // password: 't08010688D@1',
+    // database: 'renee_mini_project',
 });
 
 // Open the MySQL connection
